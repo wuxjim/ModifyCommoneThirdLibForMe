@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7E099E01554B4C70043845D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E099DF1554B4C70043845D /* UIKit.framework */; };
+		F7E099E21554B4C70043845D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E099E11554B4C70043845D /* Foundation.framework */; };
+		F7E099E41554B4C70043845D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E099E31554B4C70043845D /* CoreGraphics.framework */; };
+		F7E099E61554B4C70043845D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E099E51554B4C70043845D /* CoreData.framework */; };
+		F7E099EC1554B4C70043845D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E099EA1554B4C70043845D /* InfoPlist.strings */; };
+		F7E099EE1554B4C70043845D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E099ED1554B4C70043845D /* main.m */; };
+		F7E099F21554B4C70043845D /* OmniPomeloAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E099F11554B4C70043845D /* OmniPomeloAppDelegate.m */; };
+		F7E099F51554B4C70043845D /* ModifyThirdLibTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7E099F31554B4C70043845D /* ModifyThirdLibTest.xcdatamodeld */; };
+		F7E099FD1554B4C70043845D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E099FC1554B4C70043845D /* SenTestingKit.framework */; };
+		F7E099FE1554B4C70043845D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E099DF1554B4C70043845D /* UIKit.framework */; };
+		F7E099FF1554B4C70043845D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E099E11554B4C70043845D /* Foundation.framework */; };
+		F7E09A001554B4C70043845D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E099E51554B4C70043845D /* CoreData.framework */; };
+		F7E09A081554B4C70043845D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E09A061554B4C70043845D /* InfoPlist.strings */; };
+		F7E09A0B1554B4C70043845D /* ModifyThirdLibTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E09A0A1554B4C70043845D /* ModifyThirdLibTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7E09A011554B4C70043845D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E099D21554B4C70043845D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E099DA1554B4C70043845D;
+			remoteInfo = ModifyThirdLibTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7E099DB1554B4C70043845D /* ModifyThirdLibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModifyThirdLibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E099DF1554B4C70043845D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7E099E11554B4C70043845D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7E099E31554B4C70043845D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7E099E51554B4C70043845D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F7E099E91554B4C70043845D /* ModifyThirdLibTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModifyThirdLibTest-Info.plist"; sourceTree = "<group>"; };
+		F7E099EB1554B4C70043845D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7E099ED1554B4C70043845D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7E099EF1554B4C70043845D /* ModifyThirdLibTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModifyThirdLibTest-Prefix.pch"; sourceTree = "<group>"; };
+		F7E099F01554B4C70043845D /* OmniPomeloAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OmniPomeloAppDelegate.h; sourceTree = "<group>"; };
+		F7E099F11554B4C70043845D /* OmniPomeloAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmniPomeloAppDelegate.m; sourceTree = "<group>"; };
+		F7E099F41554B4C70043845D /* ModifyThirdLibTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModifyThirdLibTest.xcdatamodel; sourceTree = "<group>"; };
+		F7E099FB1554B4C70043845D /* ModifyThirdLibTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModifyThirdLibTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E099FC1554B4C70043845D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F7E09A051554B4C70043845D /* ModifyThirdLibTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModifyThirdLibTestTests-Info.plist"; sourceTree = "<group>"; };
+		F7E09A071554B4C70043845D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7E09A091554B4C70043845D /* ModifyThirdLibTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModifyThirdLibTestTests.h; sourceTree = "<group>"; };
+		F7E09A0A1554B4C70043845D /* ModifyThirdLibTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModifyThirdLibTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E099D81554B4C70043845D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E099E01554B4C70043845D /* UIKit.framework in Frameworks */,
+				F7E099E21554B4C70043845D /* Foundation.framework in Frameworks */,
+				F7E099E41554B4C70043845D /* CoreGraphics.framework in Frameworks */,
+				F7E099E61554B4C70043845D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E099F71554B4C70043845D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E099FD1554B4C70043845D /* SenTestingKit.framework in Frameworks */,
+				F7E099FE1554B4C70043845D /* UIKit.framework in Frameworks */,
+				F7E099FF1554B4C70043845D /* Foundation.framework in Frameworks */,
+				F7E09A001554B4C70043845D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E099D01554B4C70043845D = {
+			isa = PBXGroup;
+			children = (
+				F7E099E71554B4C70043845D /* ModifyThirdLibTest */,
+				F7E09A031554B4C70043845D /* ModifyThirdLibTestTests */,
+				F7E099DE1554B4C70043845D /* Frameworks */,
+				F7E099DC1554B4C70043845D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E099DC1554B4C70043845D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E099DB1554B4C70043845D /* ModifyThirdLibTest.app */,
+				F7E099FB1554B4C70043845D /* ModifyThirdLibTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E099DE1554B4C70043845D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7E099DF1554B4C70043845D /* UIKit.framework */,
+				F7E099E11554B4C70043845D /* Foundation.framework */,
+				F7E099E31554B4C70043845D /* CoreGraphics.framework */,
+				F7E099E51554B4C70043845D /* CoreData.framework */,
+				F7E099FC1554B4C70043845D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7E099E71554B4C70043845D /* ModifyThirdLibTest */ = {
+			isa = PBXGroup;
+			children = (
+				F7E099F01554B4C70043845D /* OmniPomeloAppDelegate.h */,
+				F7E099F11554B4C70043845D /* OmniPomeloAppDelegate.m */,
+				F7E099F31554B4C70043845D /* ModifyThirdLibTest.xcdatamodeld */,
+				F7E099E81554B4C70043845D /* Supporting Files */,
+			);
+			path = ModifyThirdLibTest;
+			sourceTree = "<group>";
+		};
+		F7E099E81554B4C70043845D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7E099E91554B4C70043845D /* ModifyThirdLibTest-Info.plist */,
+				F7E099EA1554B4C70043845D /* InfoPlist.strings */,
+				F7E099ED1554B4C70043845D /* main.m */,
+				F7E099EF1554B4C70043845D /* ModifyThirdLibTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7E09A031554B4C70043845D /* ModifyThirdLibTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7E09A091554B4C70043845D /* ModifyThirdLibTestTests.h */,
+				F7E09A0A1554B4C70043845D /* ModifyThirdLibTestTests.m */,
+				F7E09A041554B4C70043845D /* Supporting Files */,
+			);
+			path = ModifyThirdLibTestTests;
+			sourceTree = "<group>";
+		};
+		F7E09A041554B4C70043845D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7E09A051554B4C70043845D /* ModifyThirdLibTestTests-Info.plist */,
+				F7E09A061554B4C70043845D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7E099DA1554B4C70043845D /* ModifyThirdLibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E09A0E1554B4C70043845D /* Build configuration list for PBXNativeTarget "ModifyThirdLibTest" */;
+			buildPhases = (
+				F7E099D71554B4C70043845D /* Sources */,
+				F7E099D81554B4C70043845D /* Frameworks */,
+				F7E099D91554B4C70043845D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModifyThirdLibTest;
+			productName = ModifyThirdLibTest;
+			productReference = F7E099DB1554B4C70043845D /* ModifyThirdLibTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E099FA1554B4C70043845D /* ModifyThirdLibTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E09A111554B4C70043845D /* Build configuration list for PBXNativeTarget "ModifyThirdLibTestTests" */;
+			buildPhases = (
+				F7E099F61554B4C70043845D /* Sources */,
+				F7E099F71554B4C70043845D /* Frameworks */,
+				F7E099F81554B4C70043845D /* Resources */,
+				F7E099F91554B4C70043845D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E09A021554B4C70043845D /* PBXTargetDependency */,
+			);
+			name = ModifyThirdLibTestTests;
+			productName = ModifyThirdLibTestTests;
+			productReference = F7E099FB1554B4C70043845D /* ModifyThirdLibTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E099D21554B4C70043845D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OmniPomelo;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F7E099D51554B4C70043845D /* Build configuration list for PBXProject "ModifyThirdLibTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7E099D01554B4C70043845D;
+			productRefGroup = F7E099DC1554B4C70043845D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E099DA1554B4C70043845D /* ModifyThirdLibTest */,
+				F7E099FA1554B4C70043845D /* ModifyThirdLibTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E099D91554B4C70043845D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E099EC1554B4C70043845D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E099F81554B4C70043845D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E09A081554B4C70043845D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F7E099F91554B4C70043845D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E099D71554B4C70043845D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E099EE1554B4C70043845D /* main.m in Sources */,
+				F7E099F21554B4C70043845D /* OmniPomeloAppDelegate.m in Sources */,
+				F7E099F51554B4C70043845D /* ModifyThirdLibTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E099F61554B4C70043845D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E09A0B1554B4C70043845D /* ModifyThirdLibTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7E09A021554B4C70043845D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E099DA1554B4C70043845D /* ModifyThirdLibTest */;
+			targetProxy = F7E09A011554B4C70043845D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7E099EA1554B4C70043845D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E099EB1554B4C70043845D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E09A061554B4C70043845D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E09A071554B4C70043845D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7E09A0C1554B4C70043845D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7E09A0D1554B4C70043845D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E09A0F1554B4C70043845D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModifyThirdLibTest/ModifyThirdLibTest-Prefix.pch";
+				INFOPLIST_FILE = "ModifyThirdLibTest/ModifyThirdLibTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7E09A101554B4C70043845D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModifyThirdLibTest/ModifyThirdLibTest-Prefix.pch";
+				INFOPLIST_FILE = "ModifyThirdLibTest/ModifyThirdLibTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7E09A121554B4C70043845D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModifyThirdLibTest.app/ModifyThirdLibTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModifyThirdLibTest/ModifyThirdLibTest-Prefix.pch";
+				INFOPLIST_FILE = "ModifyThirdLibTestTests/ModifyThirdLibTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F7E09A131554B4C70043845D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModifyThirdLibTest.app/ModifyThirdLibTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModifyThirdLibTest/ModifyThirdLibTest-Prefix.pch";
+				INFOPLIST_FILE = "ModifyThirdLibTestTests/ModifyThirdLibTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E099D51554B4C70043845D /* Build configuration list for PBXProject "ModifyThirdLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E09A0C1554B4C70043845D /* Debug */,
+				F7E09A0D1554B4C70043845D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E09A0E1554B4C70043845D /* Build configuration list for PBXNativeTarget "ModifyThirdLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E09A0F1554B4C70043845D /* Debug */,
+				F7E09A101554B4C70043845D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7E09A111554B4C70043845D /* Build configuration list for PBXNativeTarget "ModifyThirdLibTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E09A121554B4C70043845D /* Debug */,
+				F7E09A131554B4C70043845D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7E099F31554B4C70043845D /* ModifyThirdLibTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7E099F41554B4C70043845D /* ModifyThirdLibTest.xcdatamodel */,
+			);
+			currentVersion = F7E099F41554B4C70043845D /* ModifyThirdLibTest.xcdatamodel */;
+			path = ModifyThirdLibTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7E099D21554B4C70043845D /* Project object */;
+}
